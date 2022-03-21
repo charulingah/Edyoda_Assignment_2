@@ -4,7 +4,7 @@ the value should be corresponding ASCII values'''
 #solution
 
 as_dict= dict()
-alfapetTeller = range(97,123)
-for i in alfapetTeller:
+ascii_value = range(97,123)
+for i in ascii_value:
     as_dict[chr(i)] =  i
 print(as_dict)
